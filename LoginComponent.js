@@ -24,7 +24,7 @@ export default class LoginComponent extends Component {
     render() {
         return `
         <form>
-            <h1>Login 3ck0irt7nm</h1>
+            <h1>Login</h1>
             <input type = "text" name = "Login" class = "email"/>
             <input type = "password" name = "Password" class = "password"/>
             <button type="submit">Submit</button>
