@@ -59,7 +59,7 @@ export default class Server {
             method: 'PUT',
             body:
                 JSON.stringify({
-                    body
+                    text:body.text,
                 }),
             headers: {
                 'Content-Type': 'application/json',
